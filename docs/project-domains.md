@@ -21,6 +21,25 @@ Expected configuration:
 2. Set production base URL metadata to `https://aleph.ptoq.io`.
 3. Keep `/work` linking to `https://aleph.ptoq.io/`.
 
+## `flatus`
+
+Planned domain posture:
+
+- Primary public domain: `https://flatus.ptoq.io`
+- Repository: `https://github.com/p-to-q/flatus`
+
+Why:
+
+- `flatus.ptoq.io` keeps the project inside the `p-to-q` namespace once its deployment is ready.
+- Until deployment and HTTPS are live, `/work` should keep linking to the repository instead of a broken product URL.
+
+Expected configuration when the project deployment is ready:
+
+1. Add `flatus.ptoq.io` to the Flatus production deployment.
+2. Set production base URL metadata to `https://flatus.ptoq.io`.
+3. Point HTML canonical and social metadata at `https://flatus.ptoq.io/`.
+4. Switch `/work` from the repository link to `https://flatus.ptoq.io/` once the product URL is healthy.
+
 ## `jiko`
 
 Domain posture:
