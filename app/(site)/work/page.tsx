@@ -8,14 +8,14 @@ import { SiteStickyQedPage } from '@/components/layout/site-sticky-qed-page'
 export const metadata: Metadata = {
   title: 'Work',
   description:
-    'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, and agent lifeRestart.',
+    'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, and jiko.',
   alternates: {
     canonical: '/work',
   },
   openGraph: {
     title: 'Work',
     description:
-      'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, and agent lifeRestart.',
+      'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, and jiko.',
     url: '/work',
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Work',
     description:
-      'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, and agent lifeRestart.',
+      'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, and jiko.',
     images: ['/og?title=Work'],
   },
 }
@@ -121,7 +121,7 @@ export default function WorkPage() {
           get the melody out of your head
         </WorkItem>
         <WorkItem thumb={thumbs['jiko']}>
-          <ExternalLink href="https://github.com/p-to-q/jiko">[jiko]</ExternalLink>
+          <ExternalLink href="https://jiko.ptoq.io">[jiko]</ExternalLink>
           {' - '}
           instant decision making instrument
         </WorkItem>
