@@ -89,7 +89,7 @@ export default function WorkPage() {
           keyboard cadence for browser stepping games
         </WorkItem>
         <WorkItem thumb={thumbs['flatus']}>
-          <ExternalLink href="https://github.com/p-to-q/flatus">flatus</ExternalLink>
+          <ExternalLink href="https://flatus.ptoq.io">flatus</ExternalLink>
           {' - '}
           a small thing that lives in your menubar and occasionally farts
         </WorkItem>
