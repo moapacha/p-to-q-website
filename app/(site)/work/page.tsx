@@ -74,7 +74,7 @@ export default function WorkPage() {
     <SiteStickyQedPage>
       <section className="flex flex-col gap-3">
         <WorkItem thumb={thumbs['wittgenstein']}>
-          <ExternalLink href="https://github.com/p-to-q/wittgenstein">wittgenstein</ExternalLink>
+          <ExternalLink href="https://www.wittgenstein.wtf/">wittgenstein</ExternalLink>
           {' - '}
           a modality harness for text-first LLMs
         </WorkItem>
