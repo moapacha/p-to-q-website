@@ -7,6 +7,18 @@ export default function robots() {
         userAgent: '*',
         allow: '/',
       },
+      {
+        userAgent: 'GPTBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'ClaudeBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: '/',
+      },
     ],
     host: siteUrl,
     sitemap: `${siteUrl}/sitemap.xml`,

@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   description: SITE_CONFIG.description,
   icons: {
     icon: '/favicon.svg',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: SITE_CONFIG.title,
@@ -48,6 +49,14 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  alternates: {
+    types: {
+      'application/rss+xml': '/rss',
+    },
+  },
+  other: {
+    'humans': '/humans.txt',
   },
 }
 

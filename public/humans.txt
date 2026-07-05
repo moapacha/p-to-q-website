@@ -1,0 +1,14 @@
+/* Team */
+[p → q]
+Site: https://www.ptoq.io
+Contact: hi@ptoq.io
+GitHub: https://github.com/p-to-q
+
+/* Technology */
+Framework: Next.js
+Hosting: Vercel
+Language: TypeScript
+
+/* Site */
+Last update: 2026-07-05
+Standards: HTML5, CSS3

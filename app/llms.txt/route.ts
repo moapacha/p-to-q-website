@@ -12,6 +12,8 @@ const llms = `# [p → q]
 - About: ${siteUrl}/
 - Work: ${siteUrl}/work
 - Writing: ${siteUrl}/writing
+  - Strange Tools: ${siteUrl}/writing/strange-tools
+  - The Forest and the Interface: ${siteUrl}/writing/the-forest-and-the-interface
 
 ## Machine-readable endpoints
 - Sitemap: ${siteUrl}/sitemap.xml
