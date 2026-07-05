@@ -83,6 +83,79 @@ export default function robots() {
         userAgent: 'PetalBot',
         allow: '/',
       },
+      // Yandex
+      {
+        userAgent: 'YandexBot',
+        allow: '/',
+      },
+      // Baidu
+      {
+        userAgent: 'Baiduspider',
+        allow: '/',
+      },
+      // Sogou
+      {
+        userAgent: 'Sogou',
+        allow: '/',
+      },
+      // 360 Search
+      {
+        userAgent: '360Spider',
+        allow: '/',
+      },
+      // Naver
+      {
+        userAgent: 'Yeti',
+        allow: '/',
+      },
+      // Meta / Facebook
+      {
+        userAgent: 'FacebookExternalHit',
+        allow: '/',
+      },
+      // Twitter / X
+      {
+        userAgent: 'Twitterbot',
+        allow: '/',
+      },
+      // LinkedIn
+      {
+        userAgent: 'LinkedInBot',
+        allow: '/',
+      },
+      // Internet Archive
+      {
+        userAgent: 'ia_archiver',
+        allow: '/',
+      },
+      // SEO tools
+      {
+        userAgent: 'SemrushBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'AhrefsBot',
+        allow: '/',
+      },
+      {
+        userAgent: 'MJ12bot',
+        allow: '/',
+      },
+      // DeepSeek
+      {
+        userAgent: 'DeepSeek',
+        allow: '/',
+      },
+      // Google AI
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+      },
+      // Cohere
+      {
+        userAgent: 'cohere-ai',
+        allow: '/',
+      },
     ],
     host: siteUrl,
     sitemap: `${siteUrl}/sitemap.xml`,
