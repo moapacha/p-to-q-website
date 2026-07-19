@@ -8,14 +8,14 @@ import { SiteStickyQedPage } from '@/components/layout/site-sticky-qed-page'
 export const metadata: Metadata = {
   title: 'Work',
   description:
-    'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, and jiko.',
+    'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, jiko, and via.',
   alternates: {
     canonical: '/work',
   },
   openGraph: {
     title: 'Work',
     description:
-      'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, and jiko.',
+    'Selected projects from our practice: wittgenstein, sonde, autoclicker, flatus, carburetor, centrifuge-sort, aleph, agent lifeRestart, murmur, jiko, and via.',
     url: '/work',
     images: [
       {
@@ -124,6 +124,11 @@ export default function WorkPage() {
           <ExternalLink href="https://jiko.ptoq.io">[jiko]</ExternalLink>
           {' - '}
           instant decision making instrument
+        </WorkItem>
+        <WorkItem thumb={thumbs['via']}>
+          <ExternalLink href="https://github.com/p-to-q/via">via</ExternalLink>
+          {' - '}
+          Git-tree/Google Map interface for vibe coding decisions.
         </WorkItem>
       </section>
     </SiteStickyQedPage>
