@@ -128,7 +128,7 @@ export default function WorkPage() {
         <WorkItem thumb={thumbs['via']}>
           <ExternalLink href="https://github.com/p-to-q/via">via</ExternalLink>
           {' - '}
-          Git-tree/Google Map interface for vibe coding decisions.
+          Git-tree/Google Map interface for vibe coding decisions
         </WorkItem>
       </section>
     </SiteStickyQedPage>
