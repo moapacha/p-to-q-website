@@ -131,7 +131,7 @@ export default function WorkPage() {
           Git-tree/Google Map interface for vibe coding decisions
         </WorkItem>
         <WorkItem>
-          matter - Make thought matter
+          matter - make thought matter
         </WorkItem>
       </section>
     </SiteStickyQedPage>
