@@ -133,7 +133,7 @@ export default function WorkPage() {
         <WorkItem thumb={thumbs['matter']}>
           <ExternalLink href="https://matter.ptoq.io">matter</ExternalLink>
           {' - '}
-          make thought matter
+          make thought matter (as a brain-computer interface)
         </WorkItem>
       </section>
     </SiteStickyQedPage>
