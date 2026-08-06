@@ -130,8 +130,10 @@ export default function WorkPage() {
           {' - '}
           Git-tree/Google Map interface for vibe coding decisions
         </WorkItem>
-        <WorkItem>
-          matter - make thought matter
+        <WorkItem thumb={thumbs['matter']}>
+          <ExternalLink href="https://matter.ptoq.io">matter</ExternalLink>
+          {' - '}
+          make thought matter
         </WorkItem>
       </section>
     </SiteStickyQedPage>
