@@ -68,6 +68,18 @@ function WorkItem({ thumb, children }: { thumb?: string; children: ReactNode }) 
   )
 }
 
+function PitchLink({ project }: { project: 'jiko' | 'matter' | 'murmur' | 'wittgenstein' }) {
+  return (
+    <ExternalLink
+      href={encodeURI(`/pitches/${project}_[p→q]_hack_pitch.pdf`)}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      [PDF]
+    </ExternalLink>
+  )
+}
+
 export default function WorkPage() {
   const thumbs = readWorkThumbs()
   return (
@@ -76,7 +88,7 @@ export default function WorkPage() {
         <WorkItem thumb={thumbs['wittgenstein']}>
           <ExternalLink href="https://www.wittgenstein.wtf/">wittgenstein</ExternalLink>
           {' - '}
-          a modality harness for text-first LLMs
+          a modality harness for text-first LLMs. <PitchLink project="wittgenstein" />
         </WorkItem>
         <WorkItem thumb={thumbs['sonde']}>
           <ExternalLink href="https://github.com/moapacha/sonde">sonde</ExternalLink>
@@ -118,12 +130,12 @@ export default function WorkPage() {
         <WorkItem thumb={thumbs['murmur']}>
           <ExternalLink href="https://murmur.ptoq.io/">murmur</ExternalLink>
           {' - '}
-          get the melody out of your head
+          get the melody out of your head. <PitchLink project="murmur" />
         </WorkItem>
         <WorkItem thumb={thumbs['jiko']}>
           <ExternalLink href="https://jiko.ptoq.io">[jiko]</ExternalLink>
           {' - '}
-          instant decision making instrument
+          instant decision making instrument. <PitchLink project="jiko" />
         </WorkItem>
         <WorkItem thumb={thumbs['via']}>
           <ExternalLink href="https://github.com/p-to-q/via">via</ExternalLink>
@@ -133,7 +145,7 @@ export default function WorkPage() {
         <WorkItem thumb={thumbs['matter']}>
           <ExternalLink href="https://matter.ptoq.io">matter</ExternalLink>
           {' - '}
-          make thought matter (as a BCI)
+          make thought matter (as a BCI). <PitchLink project="matter" />
         </WorkItem>
       </section>
     </SiteStickyQedPage>
