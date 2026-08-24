@@ -60,14 +60,12 @@ export const metadata: Metadata = {
   },
 }
 
-/** All Camingo Mono woff2 cuts — preload so `document.fonts.ready` resolves quickly when possible. */
+/** Only the cuts used in the first visible frame participate in the soft font gate. */
 const CAMINGO_PRELOAD_WOFF2 = [
   'CamingoMono-Regular.woff2',
   'CamingoMono-SemiBold.woff2',
-  'CamingoMono-Bold.woff2',
   'CamingoMono-SemiBoldItalic.woff2',
-  'CamingoMono-Light.woff2',
-  'CamingoMono-ExtraLightItalic.woff2',
+  'CamingoMono-Bold.woff2',
 ] as const
 
 const CAMINGO_FONT_DIR = '/fonts/CamingoMono%20Font/'
@@ -113,6 +111,7 @@ export default function RootLayout({
           ['--home-logo-viewport-offset' as string]: '3.5rem',
         }}
       >
+        <a href="#main-content" className="skip-link">Skip to content</a>
         <noscript
           dangerouslySetInnerHTML={{
             __html: '<style>.font-gate-pending{visibility:visible!important}</style>',

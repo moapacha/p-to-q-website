@@ -47,6 +47,7 @@ const WRITINGS = [
 export default function WritingPage() {
   return (
     <SiteStickyQedPage>
+      <h1 className="sr-only">Writing</h1>
       <section className="flex flex-col gap-3">
         <p className="heading-text"><a
             href="https://medium.com/@kyletmartinez/reverse-engineering-claudes-ascii-spinner-animation-eec2804626e0"
