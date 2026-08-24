@@ -5,15 +5,17 @@ import { useLayoutEffect, useRef } from 'react'
 const REVEAL_TIMEOUT_MS = 2_500
 const BRAND_FONT_PROBES = [
   ['400 1em CamingoMono', '[p→q] Aa'],
+  ['300 1em CamingoMono', '[p→q] Aa'],
   ['600 1em CamingoMono', '[p→q] Aa'],
   ['italic 600 1em CamingoMono', '[p→q] Aa'],
+  ['italic 200 1em CamingoMono', '[p→q] Aa'],
   ['700 1em CamingoMono', '[p→q] Aa'],
 ] as const
 
 /**
- * Preserves the site's original all-at-once reveal while waiting only for Camingo Mono
- * cuts that can appear in the first frame. The matching CSS class independently reveals
- * at 2.5s, so a failed font request or hydration never leaves the page blank.
+ * Preserves the site's original all-at-once reveal while warming the complete local
+ * Camingo Mono family. The matching CSS class independently reveals at 2.5s, so a
+ * failed font request or hydration never leaves the page blank.
  */
 export function FontDisplayGate({ children }: { children: React.ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null)
