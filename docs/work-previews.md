@@ -13,11 +13,16 @@ gutter. Mobile and tablet layouts do not request or display these previews.
 The build scans `public/work` by basename, so extensions may change without a code
 update. Basenames must remain unique.
 
+## Curated canonical previews
+
+- `matter.jpg`: supplied screenshot of the current Matter interface
+
 ## Current secondary previews
 
 - `wittgenstein-pitch.jpg`: pitch PDF page 1
 - `jiko-pitch.jpg`: pitch PDF page 1
-- `matter-pitch.jpg`: pitch PDF page 2
+- `matter-pitch.jpg`: high-quality web export of Matter's official
+  [`slate-bone-master-1024.png`](https://github.com/p-to-q/matter/blob/main/features/matter/brand/assets/slate-bone-master-1024.png)
 - `murmur-pitch.jpg`: supplied Murmur title artwork
 - `aleph-benchmark.jpg`: Aleph benchmark interface
 - `liferestart-upstream.jpg`: original lifeRestart interface
